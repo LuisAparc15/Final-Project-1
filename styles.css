@@ -1,0 +1,124 @@
+h1 {
+    color: red;
+}
+
+p {
+   color: tan;
+}
+
+
+.banner {
+
+    background-color: green;
+
+    position: fixed;
+    left: 300px;
+    top: 0;
+    /*
+    right:
+    bottom:
+    */
+
+
+    height: 100px;
+    width: 100%;
+    /* width: 100px; */
+}
+
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(21, 0, 255);
+    padding: 10px;
+    text-align: center;
+
+    position: absolute;
+    right: 50%;
+    top: 200px;
+}
+
+
+.the-parent {
+    border: 2px solid green;
+    padding: 100px;
+}
+
+.the-child {
+    /* border: 3px solid orange; */
+   text-align: justify;
+    background-color: rebeccapurple;
+    padding: 20px;
+    border-radius: 100%;
+
+    width: 100px;
+    height: 100px;
+
+    position: relative;
+    top: 100px; left: 300px;
+}
+
+
+.sticky-icky {
+  color: #fff;
+  background: red;
+  padding: 10px;
+
+
+  position: sticky;
+  top: 0;
+}
+
+
+.nav-link {
+    background-color: red;
+   /* color: white; */
+   padding: 5px;
+}
+
+.nav-link:link {
+
+}
+
+.nav-link:visited {
+    color: yellow;
+}
+
+.nav-link:focus {
+
+}
+
+.nav-link:hover {
+    background-color: blue;
+}
+
+.nav-link:active {
+
+}
+
+
+/* pseudo class */
+/* a {
+
+}
+
+a:link {
+
+}
+
+a:visited {
+
+}
+
+a:focus {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+} */
+
